@@ -22,7 +22,7 @@ var persons = [
         age:16
     }
 ];
-var names = persons.map(person => person.name);
+var names = persons.map(person => person.name); /* var names = persons.map(function(person){ return person.name} ) */
 var ages = persons.map(person => person.age);
 console.log(names); // ->["Tom","Huck","Becky"]
 console.log(ages); //-> [17,18,16]
